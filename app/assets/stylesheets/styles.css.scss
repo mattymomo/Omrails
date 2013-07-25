@@ -1,0 +1,21 @@
+$navbarBackgroundHighligh: white;
+$navbarBackground: white;
+$btnPrimaryBackground: black;
+$baseFontFamily: Montserrat Alternates; 
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+@import 'bootstrap' ;
+
+body {
+	padding-top: 60px;	
+}
+@import 'bootstrap-responsive' ; 
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
